@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setListUserMID } from "../../redux/slices/userSlice";
 import { setIdUserREDU, setListTaskUserMID } from "../../redux/slices/taskSlice";
-import { setIsLoadingTaskREDU } from "../../redux/slices/loadingSlice";
 
 function User() {
     const dispatch = useDispatch();
